@@ -1,0 +1,14 @@
+.selected{
+    background-color: #000;
+    color: #fff;
+}
+.card{
+    border: solid 2px #000;
+    height: 300px;
+    padding: 0px 20px 20px 30px;
+    overflow: hidden;
+
+}
+.searchedWord{
+    background-color: yellow;
+}
