@@ -510,6 +510,7 @@ const createNews = (newsList = showMoreData) => {
     newsContainer.classList.add(newsData.category, "card");
     newsHeading.textContent = newsData.title;
     newsTime.textContent = newsData.dateAndTime;
+    newsTime.classList.add("date");
     news.textContent = newsData.content;
     newsContainer.append(newsHeading, newsTime, news);
     cardContainer.append(newsContainer);
